@@ -19,18 +19,21 @@ body {
 
 .header {
     text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    margin-top: 1.75rem;
+    margin-bottom: 3.5rem;
 }
 
 h1 {
     font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
     color: #2F80ED;
+    padding-bottom: 1.25rem;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -70,18 +73,30 @@ a:hover {
     box-shadow: inset 0px 0px 0px 1px rgba(47,128,237,1);
 }
 
+.github {
+    text-align: center;
+    padding-top: 2.25rem;
+}
+
 .author-box {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
     /* background-color: white; */
     padding: 1.5rem;
     border-radius: 0.3rem;
     border: 1px solid #E8EAED;
     /* box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05); */
-    margin-top: 4rem;
+    margin-top: 3.25rem;
     margin-bottom: 3rem;
 }
 
 .author-box:hover {
     border: 1px solid #1D7DFF;
+}
+
+.memoji {
+    height: 7rem;
 }
 
 .footer {
@@ -94,8 +109,8 @@ a:hover {
     color: black;
     text-align: center;
     font-size: 0.9rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
 }
 
 /* Mobile Styles */
