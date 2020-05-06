@@ -18,17 +18,20 @@ body {
 }
 
 .header {
-    text-align: center;
-    margin-top: 2.75rem;
-    margin-bottom: 4.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* text-align: center; */
+    margin-top: 6rem;
+    margin-bottom: 8.25rem;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.2;
     color: #2F80ED;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.5rem;
 }
 
 h2 {
@@ -36,6 +39,17 @@ h2 {
     font-size: 1.5rem;
     line-height: 1.4;
     margin-bottom: 1rem;
+}
+
+.caption {
+    color: lightgrey;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 5.6rem;
+}
+
+.caption > a {
+    color: lightgrey;
 }
 
 a {
@@ -116,10 +130,107 @@ a:hover {
 
 /* Mobile Styles */
 
+@media only screen and (max-width: 924px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* text-align: center; */
+        margin-top: 5rem;
+        margin-bottom: 6.5rem;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 1.2;
+        color: #2F80ED;
+        padding-bottom: 1.5rem;
+    }
+
+    .caption {
+        color: lightgrey;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        margin-top: 5.6rem;
+    }
+
+    .hero-img {
+        max-width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 836px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* text-align: center; */
+        margin-top: 4rem;
+        margin-bottom: 5.5rem;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1.2;
+        color: #2F80ED;
+        padding-bottom: 1.5rem;
+    }
+
+    .caption {
+        color: lightgrey;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        margin-top: 5.6rem;
+    }
+
+    .hero-img {
+        max-width: 360px;
+    }
+
+}
+
 @media only screen and (max-width: 750px) {
 
     .grid {
         grid-template-columns: auto;
+    }
+
+}
+
+@media only screen and (max-width: 738px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* text-align: center; */
+        margin-top: 3rem;
+        margin-bottom: 4.5rem;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1.2;
+        color: #2F80ED;
+        padding-bottom: 1.5rem;
+    }
+
+    .caption {
+        color: lightgrey;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-img {
+        max-width: 360px;
     }
 
 }
