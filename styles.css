@@ -26,6 +26,12 @@ body {
     margin-bottom: 8.25rem;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 h1 {
     font-weight: 700;
     font-size: 4rem;
@@ -41,11 +47,15 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.hero-img {
+    padding-bottom: 5px;
+}
+
 .caption {
     color: lightgrey;
     text-transform: uppercase;
     font-size: 0.75rem;
-    margin-top: 5.6rem;
+    /* margin-top: 5.6rem; */
 }
 
 .caption > a {
@@ -129,67 +139,39 @@ a:hover {
 }
 
 /* Mobile Styles */
+/* Mobile Styles */
+/* Mobile Styles */
 
 @media only screen and (max-width: 924px) {
 
     .header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        /* text-align: center; */
         margin-top: 5rem;
         margin-bottom: 6.5rem;
     }
 
     h1 {
-        font-weight: 700;
         font-size: 3.5rem;
-        line-height: 1.2;
-        color: #2F80ED;
-        padding-bottom: 1.5rem;
-    }
-
-    .caption {
-        color: lightgrey;
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        margin-top: 5.6rem;
     }
 
     .hero-img {
-        max-width: 400px;
+        max-height: 380px;
     }
 
 }
 
-@media only screen and (max-width: 836px) {
+@media only screen and (max-width: 839px) {
 
     .header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        /* text-align: center; */
         margin-top: 4rem;
         margin-bottom: 5.5rem;
     }
 
     h1 {
-        font-weight: 700;
         font-size: 3rem;
-        line-height: 1.2;
-        color: #2F80ED;
-        padding-bottom: 1.5rem;
-    }
-
-    .caption {
-        color: lightgrey;
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        margin-top: 5.6rem;
     }
 
     .hero-img {
-        max-width: 360px;
+        max-height: 340px;
     }
 
 }
@@ -202,35 +184,25 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 738px) {
+@media only screen and (max-width: 739px) {
 
     .header {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        /* text-align: center; */
-        margin-top: 3rem;
-        margin-bottom: 4.5rem;
+        margin-top: 2.75rem;
+        margin-bottom: 4.25rem;
     }
 
     h1 {
-        font-weight: 700;
         font-size: 3rem;
-        line-height: 1.2;
-        color: #2F80ED;
-        padding-bottom: 1.5rem;
     }
 
     .caption {
-        color: lightgrey;
-        text-transform: uppercase;
-        font-size: 0.75rem;
         margin-top: 1.5rem;
         margin-bottom: 2rem;
     }
 
     .hero-img {
-        max-width: 360px;
+        max-height: 340px;
     }
 
 }
